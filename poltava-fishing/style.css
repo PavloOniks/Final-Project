@@ -1,0 +1,142 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    line-height: 1.7; 
+    color: #2c3e50; 
+    background-color: #f7f9fa; 
+}
+header { 
+    background-color: #1b4332; 
+    color: #fff; 
+    padding: 1.5rem; 
+    text-align: center; 
+}
+nav ul { 
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    background-color: #2d6a4f; 
+    padding: 10px; 
+    margin-top: 10px; 
+}
+nav ul li { 
+    margin: 0 15px; 
+}
+nav ul li a { 
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+.container { 
+    display: grid; 
+    grid-template-columns: 2.5fr 1fr; 
+    gap: 30px; 
+    max-width: 1200px; 
+    margin: 30px auto; 
+    padding: 0 20px; 
+}
+main { 
+    background: #fff; 
+    padding: 25px; 
+    border-radius: 6px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+}
+aside { 
+    background: #e9ecef; 
+    padding: 20px; 
+    border-radius: 6px; 
+    height: fit-content; 
+}
+h2 { 
+    border-bottom: 2px solid #52b788; 
+    padding-bottom: 5px; 
+    color: #1b4332; 
+    margin-bottom: 15px; 
+}
+img { 
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 4px; 
+}
+figure { 
+    margin: 20px 0; 
+    background: #f8f9fa; 
+    padding: 10px; 
+    border: 1px solid #dee2e6; 
+}
+figcaption { 
+    font-size: 0.9rem; 
+    font-style: italic; 
+    text-align: center; 
+    margin-top: 5px; 
+}
+.simple-list { 
+    margin-left: 25px; 
+    margin-bottom: 20px; 
+}
+.complex-list { 
+    list-style: none; 
+}
+.complex-list > li { 
+    font-weight: bold; 
+    margin-top: 10px; 
+    color: #1b4332; 
+}
+.complex-list ul { 
+    list-style-type: circle; 
+    margin-left: 25px; 
+    font-weight: normal; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+}
+th, td { 
+    padding: 12px; 
+    border: 1px solid #dee2e6; 
+    text-align: left; 
+}
+th { 
+    background-color: #2d6a4f; 
+    color: white; 
+}
+.form-group { 
+    margin-bottom: 15px; 
+}
+label { 
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+input, select { 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+button { 
+    background: #1b4332; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+footer { 
+    background: #1b4332; 
+    color: white; 
+    text-align: center; 
+    padding: 1rem; 
+    margin-top: 40px; 
+}
+@media (max-width: 768px) { 
+    .container { 
+        grid-template-columns: 1fr; 
+    } 
+}
